@@ -3,7 +3,7 @@ const MongoConnect = require('../lib/mongo');
 class ProductService {
   constructor() {
     this.mongodb = new MongoConnect()
-    this.collection = 'products'
+    this.collection = 'api-keys'
   }
 
   async getProducts() {
